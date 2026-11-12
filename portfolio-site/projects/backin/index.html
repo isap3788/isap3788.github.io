@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Return to Work After a Career Break | BackIn</title>
+  <meta name="description" content="BackIn matches people returning from a career break with employers who value what you built while you were away. Start your comeback today." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor-aura" aria-hidden="true"></div>
+
+  <!-- ================= NAV ================= -->
+  <header class="nav">
+    <a href="#top" class="logo" aria-label="BackIn home">
+      <span class="logo-mark"><i class="ph-bold ph-arrow-bend-up-left"></i></span>
+      BackIn
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#archive">Comeback Archive</a>
+      <a href="#how">How it works</a>
+      <a href="#stories">Stories</a>
+      <a href="#employers">For employers</a>
+    </nav>
+    <button type="button" class="btn btn-small btn-primary magnetic" data-modal="signup">Get the app</button>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false"><i class="ph ph-list"></i></button>
+  </header>
+
+  <main id="top">
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="hero-copy">
+        <p class="eyebrow reveal">Career re-entry, matched</p>
+        <h1 class="hero-title">
+          <span class="line"><span>Your comeback</span></span>
+          <span class="line"><span>starts <em class="accent-text">here.</em></span></span>
+        </h1>
+        <p class="hero-rotator reveal" style="--d: 2" aria-live="polite">
+          Back after
+          <span class="rotator">
+            <span class="rotator-word">parental leave.</span>
+          </span>
+        </p>
+        <p class="hero-sub reveal" style="--d: 3">
+          BackIn matches returners with employers who already know skills don't expire. They get sharper.
+        </p>
+        <div class="hero-ctas reveal" style="--d: 4">
+          <button type="button" class="btn btn-primary magnetic" data-modal="signup">Get the app <i class="ph-bold ph-arrow-right"></i></button>
+          <a href="#employers" class="btn btn-ghost">I'm hiring</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" style="--d: 2">
+        <div class="hero-photo tilt" data-tilt>
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=900&q=80&auto=format&fit=crop" alt="A smiling professional holding a laptop by an office window" width="900" height="1100" />
+        </div>
+
+        <!-- Live UI preview: a match notification from the app -->
+        <div class="float-card match-card" aria-hidden="true">
+          <div class="match-top">
+            <span class="match-icon"><i class="ph-fill ph-sparkle"></i></span>
+            <span class="match-label">New match</span>
+          </div>
+          <p class="match-role">Senior Project Manager</p>
+          <p class="match-co">Northwind Health</p>
+          <div class="match-meter"><span style="--w: 94%"></span></div>
+          <p class="match-score"><b>94%</b> skills match</p>
+        </div>
+
+        <div class="float-card chip-card" aria-hidden="true">
+          <i class="ph-fill ph-calendar-check"></i> Interview booked, Thu 10:00
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= STATS ================= -->
+    <!-- NOTE: sample figures for the class project. Replace with real data before a public launch. -->
+    <section class="stats" aria-label="BackIn by the numbers">
+      <div class="stat reveal">
+        <p class="stat-num"><span data-count="18400">0</span>+</p>
+        <p class="stat-label">returners back at work</p>
+      </div>
+      <div class="stat reveal" style="--d: 1">
+        <p class="stat-num"><span data-count="23">0</span> days</p>
+        <p class="stat-label">median time to first interview</p>
+      </div>
+      <div class="stat reveal" style="--d: 2">
+        <p class="stat-num"><span data-count="640">0</span>+</p>
+        <p class="stat-label">employers with returner programs</p>
+      </div>
+      <div class="stat reveal" style="--d: 3">
+        <p class="stat-num"><span data-count="91">0</span>%</p>
+        <p class="stat-label">still in role after one year</p>
+      </div>
+    </section>
+
+    <!-- ================= STATEMENT ================= -->
+    <section class="statement-wrap">
+      <p class="statement" data-words>
+        Skills don't expire during a break. They get sharpened by whatever you were doing instead.
+        Running a household. Managing care. Recovering. Rebuilding. None of it erases what you know.
+      </p>
+    </section>
+
+    <!-- ================= COMEBACK ARCHIVE ================= -->
+    <section class="section" id="archive">
+      <h2 class="section-title reveal">Every break has a file.<br /><span class="muted-text">None of them say "weakness."</span></h2>
+
+      <div class="archive reveal" style="--d: 1">
+        <div class="archive-tabs" role="tablist" aria-label="Reasons for a career break">
+          <!-- Tabs are generated by script.js from the ARCHIVE list -->
+        </div>
+        <div class="archive-panel" role="tabpanel" aria-live="polite">
+          <p class="file-no"></p>
+          <h3 class="file-title"></h3>
+          <div class="file-cols">
+            <div>
+              <p class="file-head"><i class="ph ph-arrows-clockwise"></i> The reframe</p>
+              <p class="file-reframe"></p>
+            </div>
+            <div>
+              <p class="file-head"><i class="ph ph-hand-heart"></i> What BackIn does</p>
+              <p class="file-help"></p>
+            </div>
+          </div>
+          <span class="stamp" aria-hidden="true">Back In</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HOW IT WORKS ================= -->
+    <section class="section how" id="how">
+      <h2 class="section-title reveal">We fixed the system,<br />not you.</h2>
+
+      <ol class="steps">
+        <li class="step reveal">
+          <span class="step-icon"><i class="ph ph-user-circle-plus"></i></span>
+          <h3>Build your profile</h3>
+          <p>Tell us what you did before the break, and what you built during it. Both count.</p>
+        </li>
+        <li class="step reveal" style="--d: 1">
+          <span class="step-icon"><i class="ph ph-intersect"></i></span>
+          <h3>Get matched</h3>
+          <p>We connect you with employers who already value returners. No algorithm filtering you out first.</p>
+        </li>
+        <li class="step reveal" style="--d: 2">
+          <span class="step-icon"><i class="ph ph-microphone-stage"></i></span>
+          <h3>Land the interview</h3>
+          <p>Practice your break story with a coach, then walk in confident. You were invited, not filtered.</p>
+        </li>
+      </ol>
+      <div class="steps-line" aria-hidden="true"><span></span></div>
+    </section>
+
+    <!-- ================= FEATURES (bento) ================= -->
+    <section class="section">
+      <h2 class="section-title reveal">Everything you need to step back in.</h2>
+      <div class="bento">
+        <article class="tile tile-photo reveal" data-spotlight>
+          <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1200&q=80&auto=format&fit=crop" alt="Two women talking across a table during a coaching session" loading="lazy" />
+          <div class="tile-body">
+            <i class="ph ph-chats-circle"></i>
+            <h3>1:1 comeback coaching</h3>
+            <p>Practice answering "so, what have you been up to?" until it feels easy.</p>
+          </div>
+        </article>
+        <article class="tile tile-accent reveal" style="--d: 1" data-spotlight>
+          <div class="tile-body">
+            <i class="ph ph-file-text"></i>
+            <h3>Resume translator</h3>
+            <p>Turns "managed a family move" into the project skills employers search for.</p>
+          </div>
+        </article>
+        <article class="tile reveal" style="--d: 2" data-spotlight>
+          <div class="tile-body">
+            <i class="ph ph-shield-check"></i>
+            <h3>You control disclosure</h3>
+            <p>Share as much or as little about your break as you want. Always your call.</p>
+          </div>
+        </article>
+        <article class="tile tile-photo tile-wide reveal" style="--d: 3" data-spotlight>
+          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1400&q=80&auto=format&fit=crop" alt="A team working together on laptops" loading="lazy" />
+          <div class="tile-body">
+            <i class="ph ph-graduation-cap"></i>
+            <h3>Skill refreshers</h3>
+            <p>Short courses on the tools that changed while you were away, from AI assistants to new software.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= STORIES ================= -->
+    <!-- NOTE: sample testimonials for the class project. -->
+    <section class="section" id="stories">
+      <h2 class="section-title reveal">Comebacks, in their words.</h2>
+      <div class="stories">
+        <figure class="story reveal">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&q=80&auto=format&fit=crop&crop=faces" alt="" loading="lazy" />
+          <blockquote>&ldquo;Four years caring for my dad, and BackIn treated it like experience. I had three interviews in my first month.&rdquo;</blockquote>
+          <figcaption><b>Renata Kowalski</b><span>Operations Lead, Clearfield Logistics</span></figcaption>
+        </figure>
+        <figure class="story reveal" style="--d: 1">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&q=80&auto=format&fit=crop&crop=faces" alt="" loading="lazy" />
+          <blockquote>&ldquo;The coaching helped me explain my break in one sentence. Then we talked about my work for the rest of the hour.&rdquo;</blockquote>
+          <figcaption><b>Marcus Reyes</b><span>Software Engineer, Tallis Labs</span></figcaption>
+        </figure>
+        <figure class="story reveal" style="--d: 2">
+          <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&q=80&auto=format&fit=crop&crop=faces" alt="" loading="lazy" />
+          <blockquote>&ldquo;After two kids and six years home, I thought my marketing skills were outdated. I'm leading a team again.&rdquo;</blockquote>
+          <figcaption><b>Claire Donnelly</b><span>Marketing Manager, Halcyon Foods</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ================= EMPLOYERS ================= -->
+    <section class="section employers" id="employers">
+      <div class="emp-copy">
+        <p class="eyebrow reveal">For employers</p>
+        <h2 class="section-title reveal">Returners aren't a favor. They're the talent you're missing.</h2>
+        <p class="emp-sub reveal">Experienced, motivated people your applicant tracking system screened out. We bring them to you, ready to interview.</p>
+        <ul class="emp-list">
+          <li class="reveal"><i class="ph-bold ph-check"></i> Pre-matched candidates for hard-to-fill senior roles</li>
+          <li class="reveal" style="--d: 1"><i class="ph-bold ph-check"></i> Turnkey returnship programs, launched in weeks</li>
+          <li class="reveal" style="--d: 2"><i class="ph-bold ph-check"></i> Retention and hiring reports for your team</li>
+        </ul>
+        <button type="button" class="btn btn-primary magnetic reveal" style="--d: 3" data-modal="employer">Start a returnship <i class="ph-bold ph-arrow-right"></i></button>
+      </div>
+      <div class="emp-stats">
+        <div class="emp-stat reveal"><p><span data-count="2.3" data-decimals="1">0</span>&times;</p><span>larger candidate pool for senior roles</span></div>
+        <div class="emp-stat reveal" style="--d: 1"><p><span data-count="38">0</span>%</p><span>faster time to hire</span></div>
+        <div class="emp-stat reveal" style="--d: 2"><p><span data-count="87">0</span>%</p><span>of hiring managers would hire a returner again</span></div>
+      </div>
+    </section>
+
+    <!-- Partner marquee (invented company names for the class project) -->
+    <section class="marquee" aria-label="Partner employers">
+      <div class="marquee-track">
+        <span><i class="ph-fill ph-hexagon"></i> Northwind Health</span>
+        <span><i class="ph-fill ph-circle-half"></i> Tallis Labs</span>
+        <span><i class="ph-fill ph-triangle"></i> Clearfield Logistics</span>
+        <span><i class="ph-fill ph-diamond"></i> Halcyon Foods</span>
+        <span><i class="ph-fill ph-star-four"></i> Meridian Bank</span>
+        <span><i class="ph-fill ph-asterisk"></i> Brightline Energy</span>
+        <span><i class="ph-fill ph-square-half"></i> Orchard &amp; Vale</span>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="section faq-wrap">
+      <h2 class="section-title reveal">Questions, answered.</h2>
+      <div class="faq">
+        <details class="reveal">
+          <summary>Is BackIn free for job seekers?<i class="ph ph-plus"></i></summary>
+          <p>Yes. Profiles, matching, and your first coaching session are free. Employers pay to join the network.</p>
+        </details>
+        <details class="reveal" style="--d: 1">
+          <summary>How long does my break need to be?<i class="ph ph-plus"></i></summary>
+          <p>Six months or more. Whether you were away for one year or fifteen, there's a track for you.</p>
+        </details>
+        <details class="reveal" style="--d: 2">
+          <summary>Do I have to explain why I took a break?<i class="ph ph-plus"></i></summary>
+          <p>Never. You choose what to share. Most returners give a one-line answer, and we help you write it.</p>
+        </details>
+        <details class="reveal" style="--d: 3">
+          <summary>What kinds of jobs are on BackIn?<i class="ph ph-plus"></i></summary>
+          <p>Full-time, part-time, and flexible roles in tech, healthcare, finance, operations, marketing, education, and more.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- ================= FINAL CTA + APP PREVIEW ================= -->
+    <section class="final" id="download">
+      <div class="final-glow" aria-hidden="true"></div>
+
+      <div class="final-copy">
+        <h2 class="final-title reveal">You didn't fall behind. You built something the resume <span class="accent-text">doesn't have a box for.</span></h2>
+        <p class="final-sub reveal" style="--d: 1">Free on iPhone and Android. Your first matches arrive within 48 hours.</p>
+        <div class="store-btns reveal" style="--d: 2">
+          <button type="button" class="store magnetic" data-modal="signup" data-platform="iPhone"><i class="ph-fill ph-apple-logo"></i><span><small>Download on the</small>App Store</span></button>
+          <button type="button" class="store magnetic" data-modal="signup" data-platform="Android"><i class="ph-fill ph-google-play-logo"></i><span><small>Get it on</small>Google Play</span></button>
+        </div>
+        <!-- NOTE: sample rating for the class project -->
+        <p class="rating reveal" style="--d: 3">
+          <span class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star-half"></i></span>
+          4.8 from 2,100+ reviews
+        </p>
+      </div>
+
+      <!-- iPhone mockup with a scrollable, tappable app screen -->
+      <div class="phone-wrap reveal" style="--d: 2">
+        <div class="phone" role="region" aria-label="Preview of the BackIn app. Scroll inside the phone to explore.">
+          <div class="phone-screen">
+            <div class="island" aria-hidden="true"></div>
+            <div class="statusbar" aria-hidden="true">
+              <span>9:41</span>
+              <span class="status-icons"><i class="ph-fill ph-cell-signal-full"></i><i class="ph-bold ph-wifi-high"></i><i class="ph-fill ph-battery-full"></i></span>
+            </div>
+
+            <div class="app-scroll" tabindex="0">
+              <header class="app-head">
+                <div>
+                  <p class="app-hello">Good morning,</p>
+                  <p class="app-name">Jordan</p>
+                </div>
+                <button type="button" class="app-icon-btn" aria-label="Notifications"><i class="ph ph-bell"></i><span class="app-badge">3</span></button>
+              </header>
+
+              <div class="app-progress">
+                <div class="ring" style="--p: 72">
+                  <span>72%</span>
+                </div>
+                <div>
+                  <p class="app-progress-title">Comeback ready</p>
+                  <p class="app-progress-sub">2 steps left: add a portfolio link and book a coaching session.</p>
+                </div>
+              </div>
+
+              <div class="app-section-head"><h4>Today's matches</h4><span>See all</span></div>
+
+              <article class="app-match">
+                <div class="app-match-top">
+                  <span class="co-logo" style="--c: #4f8cff">N</span>
+                  <div><p class="app-role">Senior Project Manager</p><p class="app-co">Northwind Health</p></div>
+                  <button type="button" class="app-save" aria-label="Save job"><i class="ph ph-heart"></i></button>
+                </div>
+                <div class="app-tags"><span>Returnship</span><span>Hybrid</span><span>$118k</span></div>
+                <div class="app-match-foot">
+                  <span class="app-score"><b>94%</b> skills match</span>
+                  <button type="button" class="app-apply">Apply</button>
+                </div>
+              </article>
+
+              <article class="app-match">
+                <div class="app-match-top">
+                  <span class="co-logo" style="--c: #2fbf8f">C</span>
+                  <div><p class="app-role">Operations Lead</p><p class="app-co">Clearfield Logistics</p></div>
+                  <button type="button" class="app-save" aria-label="Save job"><i class="ph ph-heart"></i></button>
+                </div>
+                <div class="app-tags"><span>Flexible hours</span><span>Remote</span></div>
+                <div class="app-match-foot">
+                  <span class="app-score"><b>89%</b> skills match</span>
+                  <button type="button" class="app-apply">Apply</button>
+                </div>
+              </article>
+
+              <article class="app-match">
+                <div class="app-match-top">
+                  <span class="co-logo" style="--c: #c77dff">H</span>
+                  <div><p class="app-role">Marketing Manager</p><p class="app-co">Halcyon Foods</p></div>
+                  <button type="button" class="app-save" aria-label="Save job"><i class="ph ph-heart"></i></button>
+                </div>
+                <div class="app-tags"><span>Part-time option</span><span>On-site</span></div>
+                <div class="app-match-foot">
+                  <span class="app-score"><b>86%</b> skills match</span>
+                  <button type="button" class="app-apply">Apply</button>
+                </div>
+              </article>
+
+              <div class="app-section-head"><h4>Up next</h4></div>
+              <div class="app-coach">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&h=120&q=70&auto=format&fit=crop&crop=faces" alt="" />
+                <div>
+                  <p class="app-role">Practice your break story</p>
+                  <p class="app-co">Thu, 2:00 PM with Coach Elena</p>
+                </div>
+                <i class="ph ph-video-camera"></i>
+              </div>
+
+              <div class="app-section-head"><h4>Skill refreshers</h4><span>Browse</span></div>
+              <div class="app-course">
+                <div class="app-course-row"><span><i class="ph ph-sparkle"></i> AI tools at work</span><b>80%</b></div>
+                <div class="app-bar"><span style="width: 80%"></span></div>
+              </div>
+              <div class="app-course">
+                <div class="app-course-row"><span><i class="ph ph-microsoft-excel-logo"></i> Spreadsheets refresher</span><b>45%</b></div>
+                <div class="app-bar"><span style="width: 45%"></span></div>
+              </div>
+              <div class="app-course">
+                <div class="app-course-row"><span><i class="ph ph-users-three"></i> Leading hybrid teams</span><b>10%</b></div>
+                <div class="app-bar"><span style="width: 10%"></span></div>
+              </div>
+
+              <div class="app-quote">
+                <i class="ph-fill ph-quotes"></i>
+                <p>"Your break is the setup, not the apology."</p>
+                <span>Daily boost</span>
+              </div>
+              <div class="app-spacer"></div>
+            </div>
+
+            <nav class="app-tabs" aria-label="App tabs">
+              <button type="button" class="active"><i class="ph-fill ph-house"></i>Home</button>
+              <button type="button"><i class="ph ph-briefcase"></i>Matches</button>
+              <button type="button"><i class="ph ph-chats-circle"></i>Coach</button>
+              <button type="button"><i class="ph ph-user"></i>Profile</button>
+            </nav>
+            <div class="home-indicator" aria-hidden="true"></div>
+          </div>
+        </div>
+        <p class="phone-hint"><i class="ph ph-hand-swipe-up"></i> Scroll the screen to explore</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <a href="#top" class="logo">
+        <span class="logo-mark"><i class="ph-bold ph-arrow-bend-up-left"></i></span>
+        BackIn
+      </a>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#archive">Comeback Archive</a>
+        <a href="#how">How it works</a>
+        <a href="#stories">Stories</a>
+        <a href="#employers">For employers</a>
+        <button type="button" class="link-btn" data-modal="contact">Contact</button>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> BackIn. Every comeback gets a file.</span>
+      <span class="footer-legal"><button type="button" class="link-btn" data-modal="privacy">Privacy</button><button type="button" class="link-btn" data-modal="terms">Terms</button></span>
+    </div>
+  </footer>
+
+  <!-- ================= MODAL (content swapped in from the templates below) ================= -->
+  <dialog class="modal" aria-labelledby="modal-title">
+    <button type="button" class="modal-close" aria-label="Close"><i class="ph ph-x"></i></button>
+    <div class="modal-content"></div>
+  </dialog>
+
+  <!-- Returner sign-up -->
+  <template id="tpl-signup">
+    <p class="eyebrow">Get the app</p>
+    <h2 id="modal-title">Start your comeback.</h2>
+    <p class="modal-sub">Tell us a little about you. We'll send your download link<span data-platform-text></span> and your first matches.</p>
+    <form novalidate data-form="signup">
+      <div class="field">
+        <label for="su-name">First name</label>
+        <input id="su-name" name="name" autocomplete="given-name" required />
+        <p class="error" aria-live="polite"></p>
+      </div>
+      <div class="field">
+        <label for="su-email">Email</label>
+        <input id="su-email" name="email" type="email" autocomplete="email" required />
+        <p class="error" aria-live="polite"></p>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="su-break">Your break</label>
+          <select id="su-break" name="break" required>
+            <option value="">Choose one</option>
+            <option>Parental leave</option><option>Caregiving</option><option>Illness &amp; recovery</option>
+            <option>Sabbatical</option><option>Relocation</option><option>Burnout</option>
+            <option>Incarceration</option><option>Prefer not to say</option>
+          </select>
+          <p class="error" aria-live="polite"></p>
+        </div>
+        <div class="field">
+          <label for="su-time">Time away</label>
+          <select id="su-time" name="time" required>
+            <option value="">Choose one</option>
+            <option>6 to 12 months</option><option>1 to 3 years</option><option>3 to 5 years</option><option>5+ years</option>
+          </select>
+          <p class="error" aria-live="polite"></p>
+        </div>
+      </div>
+      <div class="field">
+        <label for="su-field">Field you're returning to</label>
+        <select id="su-field" name="field" required>
+          <option value="">Choose one</option>
+          <option>Technology</option><option>Healthcare</option><option>Finance</option><option>Marketing &amp; communications</option>
+          <option>Operations</option><option>Education</option><option>Design &amp; creative</option><option>Something new</option>
+        </select>
+        <p class="error" aria-live="polite"></p>
+      </div>
+      <label class="check"><input type="checkbox" name="tips" checked /> Send me weekly comeback tips</label>
+      <button type="submit" class="btn btn-primary btn-block">Start my comeback <i class="ph-bold ph-arrow-right"></i></button>
+      <p class="fineprint">Free for job seekers. You choose what you share about your break.</p>
+    </form>
+  </template>
+
+  <!-- Employer interest -->
+  <template id="tpl-employer">
+    <p class="eyebrow">For employers</p>
+    <h2 id="modal-title">Start a returnship.</h2>
+    <p class="modal-sub">Tell us what you're hiring for. A partnerships lead will follow up within one business day.</p>
+    <form novalidate data-form="employer">
+      <div class="field-row">
+        <div class="field">
+          <label for="em-name">Your name</label>
+          <input id="em-name" name="name" autocomplete="name" required />
+          <p class="error" aria-live="polite"></p>
+        </div>
+        <div class="field">
+          <label for="em-email">Work email</label>
+          <input id="em-email" name="email" type="email" autocomplete="email" required />
+          <p class="error" aria-live="polite"></p>
+        </div>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="em-company">Company</label>
+          <input id="em-company" name="company" autocomplete="organization" required />
+          <p class="error" aria-live="polite"></p>
+        </div>
+        <div class="field">
+          <label for="em-size">Company size</label>
+          <select id="em-size" name="size" required>
+            <option value="">Choose one</option>
+            <option>1 to 50</option><option>51 to 250</option><option>251 to 1,000</option><option>1,000+</option>
+          </select>
+          <p class="error" aria-live="polite"></p>
+        </div>
+      </div>
+      <div class="field">
+        <label for="em-roles">Roles you want to fill</label>
+        <textarea id="em-roles" name="roles" rows="3" required></textarea>
+        <p class="hint">For example: 2 senior product managers, 1 data analyst</p>
+        <p class="error" aria-live="polite"></p>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Request a call <i class="ph-bold ph-arrow-right"></i></button>
+    </form>
+  </template>
+
+  <!-- Contact -->
+  <template id="tpl-contact">
+    <p class="eyebrow">Contact</p>
+    <h2 id="modal-title">Say hello.</h2>
+    <p class="modal-sub">Questions, press, or partnership ideas. We read everything.</p>
+    <form novalidate data-form="contact">
+      <div class="field-row">
+        <div class="field">
+          <label for="ct-name">Name</label>
+          <input id="ct-name" name="name" autocomplete="name" required />
+          <p class="error" aria-live="polite"></p>
+        </div>
+        <div class="field">
+          <label for="ct-email">Email</label>
+          <input id="ct-email" name="email" type="email" autocomplete="email" required />
+          <p class="error" aria-live="polite"></p>
+        </div>
+      </div>
+      <div class="field">
+        <label for="ct-msg">Message</label>
+        <textarea id="ct-msg" name="message" rows="4" required></textarea>
+        <p class="error" aria-live="polite"></p>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Send message <i class="ph-bold ph-paper-plane-tilt"></i></button>
+    </form>
+  </template>
+
+  <!-- Privacy (demo summary for the class project) -->
+  <template id="tpl-privacy">
+    <p class="eyebrow">Privacy</p>
+    <h2 id="modal-title">Your story stays yours.</h2>
+    <ul class="policy">
+      <li><i class="ph ph-eye-slash"></i><span><b>You control disclosure.</b> Employers only see the details about your break that you choose to share.</span></li>
+      <li><i class="ph ph-hand-palm"></i><span><b>We never sell your data.</b> Your profile is used only to match you with roles.</span></li>
+      <li><i class="ph ph-trash"></i><span><b>Delete anytime.</b> Remove your profile and everything in it from your account settings.</span></li>
+      <li><i class="ph ph-lock-key"></i><span><b>Encrypted by default.</b> Your information is protected in transit and at rest.</span></li>
+    </ul>
+    <p class="fineprint">This is a summary for the BackIn concept site. The full policy will be published at launch.</p>
+    <button type="button" class="btn btn-ghost btn-block" data-close>Got it</button>
+  </template>
+
+  <!-- Terms (demo summary for the class project) -->
+  <template id="tpl-terms">
+    <p class="eyebrow">Terms</p>
+    <h2 id="modal-title">The short version.</h2>
+    <ul class="policy">
+      <li><i class="ph ph-user-check"></i><span><b>Be yourself.</b> Profiles must be accurate and belong to you.</span></li>
+      <li><i class="ph ph-currency-circle-dollar"></i><span><b>Free for returners.</b> Employers pay for access to the network and programs.</span></li>
+      <li><i class="ph ph-handshake"></i><span><b>Respect the process.</b> Employers agree not to penalize candidates for a career break.</span></li>
+    </ul>
+    <p class="fineprint">This is a summary for the BackIn concept site. Full terms will be published at launch.</p>
+    <button type="button" class="btn btn-ghost btn-block" data-close>Got it</button>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
